@@ -17,7 +17,7 @@ model: string;
 miles: number;
 
   constructor (private transportationService: TransportationService) {
-  this.cars = this.transportationService.getCars();
+    this.cars = this.transportationService.getCars();
   }
 
   addCar(){
